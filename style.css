@@ -14,7 +14,10 @@
   text-transform: capitalize;
   transition: all .2s linear;
 }
-
+body{
+  background-color: rgb(229, 224, 224);
+  margin: 0;
+}
 *::selection{
   background:var(--green);
   color:#fff;
@@ -160,13 +163,13 @@ section{
 
 .home{
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   flex-wrap: wrap;
   background: url(image/stop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 190px;
+  height: 500px;
   background-position: bottom;
 }
 
@@ -180,9 +183,7 @@ section{
   width:100%;
 }
 
-.home .content{
-  flex:1 1 40rem;
-}
+
 
 .home .content span{
   font-size: 3rem;
@@ -366,13 +367,11 @@ section{
 }
 
 
-
-
-
-
-
-
-
+.box img{
+  border-radius:50%;
+  height: 150px;
+  width: 150px;
+}
 
 
 .contact form{
